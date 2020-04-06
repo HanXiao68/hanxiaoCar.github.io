@@ -1,0 +1,460 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My New Hugo Site - 韩霄的研究生生活 </title>
+
+    
+    
+    <meta content="My New Hugo Site" name="keywords">
+    
+    <meta content="My New Hugo Site - A Fast and Flexible Static Site Generator built with love by bep, spf13 and friends in Go.
+Website | Forum | Documentation | Installation Guide | Contribution Guide | Twitter
+  
+Overview Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website." name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+    
+    <a class="nav-self-logo" href="/">
+        My New Hugo Site
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+        
+        <li class="layui-nav-item" id="nav_big"><a href="/post/">Posts</a></li>
+        
+
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                <dd><a href="/post/">Posts</a></dd>
+                
+
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md12 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="layui-elem-quote markdown-body single-title" >
+                    <h1>韩霄的研究生生活</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2020-04-06</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+</h3>
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <!-- raw HTML omitted -->
+<p>A Fast and Flexible Static Site Generator built with love by <a href="https://github.com/bep">bep</a>, <a href="http://spf13.com/">spf13</a> and <a href="https://github.com/gohugoio/hugo/graphs/contributors">friends</a> in <a href="https://golang.org/">Go</a>.</p>
+<p><a href="https://gohugo.io">Website</a> |
+<a href="https://discourse.gohugo.io">Forum</a> |
+<a href="https://gohugo.io/getting-started/">Documentation</a> |
+<a href="https://gohugo.io/getting-started/installing/">Installation Guide</a> |
+<a href="CONTRIBUTING.md">Contribution Guide</a> |
+<a href="https://twitter.com/gohugoio">Twitter</a></p>
+<p><a href="https://godoc.org/github.com/gohugoio/hugo"><img src="https://godoc.org/github.com/gohugoio/hugo?status.svg" alt="GoDoc"></a>
+<a href="https://travis-ci.org/gohugoio/hugo"><img src="https://api.travis-ci.org/gohugoio/hugo.svg?branch=master&amp;label=Windows+and+Linux+and+macOS+build" alt="Linux and macOS Build Status" title="Windows, Linux and macOS Build Status"></a>
+<a href="https://goreportcard.com/report/github.com/gohugoio/hugo"><img src="https://goreportcard.com/badge/github.com/gohugoio/hugo" alt="Go Report Card"></a></p>
+<h2 id="overview">Overview</h2>
+<p>Hugo is a static HTML and CSS website generator written in <a href="https://golang.org/">Go</a>.
+It is optimized for speed, ease of use, and configurability.
+Hugo takes a directory with content and templates and renders them into a full HTML website.</p>
+<p>Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory.
+This works well for shared hosts and other systems where you don’t have a privileged account.</p>
+<p>Hugo renders a typical website of moderate size in a fraction of a second.
+A good rule of thumb is that each piece of content renders in around 1 millisecond.</p>
+<p>Hugo is designed to work well for any kind of website including blogs, tumbles, and docs.</p>
+<h4 id="supported-architectures">Supported Architectures</h4>
+<p>Currently, we provide pre-built Hugo binaries for Windows, Linux, FreeBSD, NetBSD, DragonFly BSD, Open BSD, macOS (Darwin), and <a href="https://gist.github.com/bep/a0d8a26cf6b4f8bc992729b8e50b480b">Android</a> for x64, i386 and ARM architectures.</p>
+<p>Hugo may also be compiled from source wherever the Go compiler tool chain can run, e.g. for other operating systems including Plan 9 and Solaris.</p>
+<p><strong>Complete documentation is available at <a href="https://gohugo.io/getting-started/">Hugo Documentation</a>.</strong></p>
+<h2 id="choose-how-to-install">Choose How to Install</h2>
+<p>If you want to use Hugo as your site generator, simply install the Hugo binaries.
+The Hugo binaries have no external dependencies.</p>
+<p>To contribute to the Hugo source code or documentation, you should <a href="https://github.com/gohugoio/hugo#fork-destination-box">fork the Hugo GitHub project</a> and clone it to your local machine.</p>
+<p>Finally, you can install the Hugo source code with <code>go</code>, build the binaries yourself, and run Hugo that way.
+Building the binaries is an easy task for an experienced <code>go</code> getter.</p>
+<h3 id="install-hugo-as-your-site-generator-binary-install">Install Hugo as Your Site Generator (Binary Install)</h3>
+<p>Use the <a href="https://gohugo.io/getting-started/installing/">installation instructions in the Hugo documentation</a>.</p>
+<h3 id="build-and-install-the-binaries-from-source-advanced-install">Build and Install the Binaries from Source (Advanced Install)</h3>
+<h4 id="prerequisite-tools">Prerequisite Tools</h4>
+<ul>
+<li><a href="https://git-scm.com/">Git</a></li>
+<li><a href="https://golang.org/dl/">Go (we test it with the last 2 major versions)</a></li>
+</ul>
+<h4 id="fetch-from-github">Fetch from GitHub</h4>
+<p>Since Hugo 0.48, Hugo uses the Go Modules support built into Go 1.11 to build. The easiest is to clone Hugo in a directory outside of <code>GOPATH</code>, as in the following example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir $HOME/src
+cd $HOME/src
+git clone https://github.com/gohugoio/hugo.git
+cd hugo
+go install
+</code></pre></div><p><strong>If you are a Windows user, substitute the <code>$HOME</code> environment variable above with <code>%USERPROFILE%</code>.</strong></p>
+<h2 id="the-hugo-documentation">The Hugo Documentation</h2>
+<p>The Hugo documentation now lives in its own repository, see <a href="https://github.com/gohugoio/hugoDocs">https://github.com/gohugoio/hugoDocs</a>. But we do keep a version of that documentation as a <code>git subtree</code> in this repository. To build the sub folder <code>/docs</code> as a Hugo site, you need to clone this repo:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone git@github.com:gohugoio/hugo.git
+</code></pre></div><h2 id="contributing-to-hugo">Contributing to Hugo</h2>
+<p>For a complete guide to contributing to Hugo, see the <a href="CONTRIBUTING.md">Contribution Guide</a>.</p>
+<p>We welcome contributions to Hugo of any kind including documentation, themes,
+organization, tutorials, blog posts, bug reports, issues, feature requests,
+feature implementations, pull requests, answering questions on the forum,
+helping to manage issues, etc.</p>
+<p>The Hugo community and maintainers are <a href="https://github.com/gohugoio/hugo/pulse/monthly">very active</a> and helpful, and the project benefits greatly from this activity.</p>
+<h3 id="asking-support-questions">Asking Support Questions</h3>
+<p>We have an active <a href="https://discourse.gohugo.io">discussion forum</a> where users and developers can ask questions.
+Please don&rsquo;t use the GitHub issue tracker to ask questions.</p>
+<h3 id="reporting-issues">Reporting Issues</h3>
+<p>If you believe you have found a defect in Hugo or its documentation, use
+the GitHub issue tracker to report the problem to the Hugo maintainers.
+If you&rsquo;re not sure if it&rsquo;s a bug or not, start by asking in the <a href="https://discourse.gohugo.io">discussion forum</a>.
+When reporting the issue, please provide the version of Hugo in use (<code>hugo version</code>).</p>
+<h3 id="submitting-patches">Submitting Patches</h3>
+<p>The Hugo project welcomes all contributors and contributions regardless of skill or experience level.
+If you are interested in helping with the project, we will help you with your contribution.
+Hugo is a very active project with many contributions happening daily.</p>
+<p>We want to create the best possible product for our users and the best contribution experience for our developers,
+we have a set of guidelines which ensure that all contributions are acceptable.
+The guidelines are not intended as a filter or barrier to participation.
+If you are unfamiliar with the contribution process, the Hugo team will help you and teach you how to bring your contribution in accordance with the guidelines.</p>
+<p>For a complete guide to contributing code to Hugo, see the <a href="CONTRIBUTING.md">Contribution Guide</a>.</p>
+<p><a href="https://github.com/igrigorik/ga-beacon"><img src="https://ga-beacon.appspot.com/UA-7131036-6/hugo/readme" alt="Analytics"></a></p>
+<h2 id="dependencies">Dependencies</h2>
+<p>Hugo stands on the shoulder of many great open source libraries, in lexical order:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Dependency</th>
+<th align="left">License</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><a href="https://github.com/alecthomas/chroma">github.com/alecthomas/chroma</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/armon/go-radix">github.com/armon/go-radix</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/aws/aws-sdk-go">github.com/aws/aws-sdk-go</a></td>
+<td align="left">Apache License 2.0</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/bep/debounce">github.com/bep/debounce</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/bep/gitmap">github.com/bep/gitmap</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/bep/golibsass">github.com/bep/golibsass</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/bep/tmc">github.com/bep/tmc</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/BurntSushi/locker">github.com/BurntSushi/locker</a></td>
+<td align="left">The Unlicense</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/BurntSushi/toml">github.com/BurntSushi/toml</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/cpuguy83/go-md2man">github.com/cpuguy83/go-md2man</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/danwakefield/fnmatch">github.com/danwakefield/fnmatch</a></td>
+<td align="left">BSD 2-Clause &ldquo;Simplified&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/disintegration/gift">github.com/disintegration/gift</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/dustin/go-humanize">github.com/dustin/go-humanize</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/fsnotify/fsnotify">github.com/fsnotify/fsnotify</a></td>
+<td align="left">BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/gobwas/glob">github.com/gobwas/glob</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/gorilla/websocket">github.com/gorilla/websocket</a></td>
+<td align="left">BSD 2-Clause &ldquo;Simplified&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/hashicorp/golang-lru">github.com/hashicorp/golang-lru</a></td>
+<td align="left">Mozilla Public License 2.0</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/hashicorp/hcl">github.com/hashicorp/hcl</a></td>
+<td align="left">Mozilla Public License 2.0</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/jdkato/prose">github.com/jdkato/prose</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/kr/pretty">github.com/kr/pretty</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/kyokomi/emoji">github.com/kyokomi/emoji</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/magiconair/properties">github.com/magiconair/properties</a></td>
+<td align="left">BSD 2-Clause &ldquo;Simplified&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/markbates/inflect">github.com/markbates/inflect</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/mattn/go-isatty">github.com/mattn/go-isatty</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/mattn/go-runewidth">github.com/mattn/go-runewidth</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/miekg/mmark">github.com/miekg/mmark</a></td>
+<td align="left">Simplified BSD License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/mitchellh/hashstructure">github.com/mitchellh/hashstructure</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/mitchellh/mapstructure">github.com/mitchellh/mapstructure</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/muesli/smartcrop">github.com/muesli/smartcrop</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/nicksnyder/go-i18n">github.com/nicksnyder/go-i18n</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/niklasfasching/go-org">github.com/niklasfasching/go-org</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/olekukonko/tablewriter">github.com/olekukonko/tablewriter</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/pelletier/go-toml">github.com/pelletier/go-toml</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/pkg/errors">github.com/pkg/errors</a></td>
+<td align="left">BSD 2-Clause &ldquo;Simplified&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/PuerkitoBio/purell">github.com/PuerkitoBio/purell</a></td>
+<td align="left">BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/PuerkitoBio/urlesc">github.com/PuerkitoBio/urlesc</a></td>
+<td align="left">BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/rogpeppe/go-internal">github.com/rogpeppe/go-internal</a></td>
+<td align="left">BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/russross/blackfriday">github.com/russross/blackfriday</a></td>
+<td align="left">Simplified BSD License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/rwcarlsen/goexif">github.com/rwcarlsen/goexif</a></td>
+<td align="left">BSD 2-Clause &ldquo;Simplified&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/spf13/afero">github.com/spf13/afero</a></td>
+<td align="left">Apache License 2.0</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/spf13/cast">github.com/spf13/cast</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/spf13/cobra">github.com/spf13/cobra</a></td>
+<td align="left">Apache License 2.0</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/spf13/fsync">github.com/spf13/fsync</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/spf13/jwalterweatherman">github.com/spf13/jwalterweatherman</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/spf13/pflag">github.com/spf13/pflag</a></td>
+<td align="left">BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/spf13/viper">github.com/spf13/viper</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/tdewolff/minify">github.com/tdewolff/minify</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/tdewolff/parse">github.com/tdewolff/parse</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/yuin/goldmark">github.com/yuin/goldmark</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/yuin/goldmark-highlighting">github.com/yuin/goldmark-highlighting</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://go.opencensus.io">go.opencensus.io</a></td>
+<td align="left">Apache License 2.0</td>
+</tr>
+<tr>
+<td align="left"><a href="https://go.uber.org/atomic">go.uber.org/atomic</a></td>
+<td align="left">MIT License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://gocloud.dev">gocloud.dev</a></td>
+<td align="left">Apache License 2.0</td>
+</tr>
+<tr>
+<td align="left"><a href="https://golang.org/x/image">golang.org/x/image</a></td>
+<td align="left">BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://golang.org/x/net">golang.org/x/net</a></td>
+<td align="left">BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://golang.org/x/oauth2">golang.org/x/oauth2</a></td>
+<td align="left">BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://golang.org/x/sync">golang.org/x/sync</a></td>
+<td align="left">BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://golang.org/x/sys">golang.org/x/sys</a></td>
+<td align="left">BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://golang.org/x/text">golang.org/x/text</a></td>
+<td align="left">BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://golang.org/x/xerrors">golang.org/x/xerrors</a></td>
+<td align="left">BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://google.golang.org/api">google.golang.org/api</a></td>
+<td align="left">BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License</td>
+</tr>
+<tr>
+<td align="left"><a href="https://google.golang.org/genproto">google.golang.org/genproto</a></td>
+<td align="left">Apache License 2.0</td>
+</tr>
+<tr>
+<td align="left"><a href="https://gopkg.in/ini.v1">gopkg.in/ini.v1</a></td>
+<td align="left">Apache License 2.0</td>
+</tr>
+<tr>
+<td align="left"><a href="https://gopkg.in/yaml.v2">gopkg.in/yaml.v2</a></td>
+<td align="left">Apache License 2.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+            </div>
+        </div>
+
+        
+    </div>
+</div>
+
+
+        </div><footer>
+    
+    
+    <div class="layui-container">
+        <p class="copyright">&copy; All rights reserved. Powered by [Hugo](https://gohugo.io) and [Erblog](https://github.com/ertuil/erblog).</p>
+    </div>
+</footer>
+</body>
+</html>
